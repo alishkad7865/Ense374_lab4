@@ -1,0 +1,128 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    }
+.center_format{
+    text-align: center;
+    align-content: center;
+    border: 2px darkslateblue;
+}
+
+.form-signin{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 2px ;
+    border-color: darkslateblue;
+    border-radius: 10px;
+}
+.fr_input{
+margin-bottom: 5px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+position: relative;
+box-sizing: border-box;
+height: auto;
+padding: 10px;
+font-size: 19px;
+width: 100%;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+}
+.fr_logout{
+    margin-bottom: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    }
+    
+.marg{
+    text-align:center; margin-left: auto; margin-right: auto; margin-top: 4%;
+}
+
+ .drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 44.5%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    text-align: center;
+    background-clip: padding-box;
+} 
+.todo_card{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(141, 141, 141, 0.089);
+    background-clip: border-box;
+    padding-bottom: 5% ;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.task-sty{   
+margin-bottom: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+position: relative;
+box-sizing: border-box;
+height: auto;
+padding: 10px;
+font-size: 16px;
+width: 100%;
+color: #495057;
+background-color:rgba(0,0,0,.20);;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 5px;
+font-weight: 400;
+line-height: 1.5;
+}
+
+.table_tsk{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+}
+
+.task_buttCl{
+    float:right;
+    padding: 2%;
+    width: 20%;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
