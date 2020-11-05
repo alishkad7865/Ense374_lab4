@@ -1,0 +1,13 @@
+{
+    "data":[
+        {"email":"user1@aa.ca","password":"user1pass"},
+        {"email":"user2@aa.ca","password":"user2pass"}
+    ],
+    "task" :[
+        {"ID":1 , "name":"unclaimed" ,"owner":"" ,"creator" :"","done": false,"cleared":false },
+        {"ID":2 , "name":"claimed by user 1" ,"owner":"user1" ,"creator" :"user1","done": false,"cleared":false },
+        {"ID":3 , "name":"claimed by user 2" ,"owner":"user2" ,"creator" :"user2","done": false,"cleared":false },
+        {"ID":4 , "name":"claimed by user 1" ,"owner":"user1" ,"creator" :"user1","done": false,"cleared":false },
+        {"ID":5 , "name":"claimed by user 2" ,"owner":"user2" ,"creator" :"user2","done": false,"cleared":false }
+    ]
+}
